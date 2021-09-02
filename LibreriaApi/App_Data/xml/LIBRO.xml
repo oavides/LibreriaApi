@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+  <query name="LIBRERIA.AGREGAR_LIBRO">
+    EXEC AGREGAR_LIBRO @titulo, @anio, @autor, @stock, @precio
+  </query>
+  <query name="LIBRERIA.MODIFICAR_LIBRO">
+    EXEC MODIFICAR_LIBRO @libroId, @titulo, @anio, @autor, @stock, @precio
+  </query>
+  <query name="LIBRERIA.ELIMINAR_LIBRO">
+    EXEC ELIMINAR_LIBRO @libroId
+  </query>
+</queries>

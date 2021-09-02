@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+  <query name="LIBRERIA.AGREGAR_CLIENTE">
+    EXEC AGREGAR_CLIENTE @nombre, @telefono, @direccion
+  </query>
+  <query name="LIBRERIA.MODIFICAR_CLIENTE">
+    EXEC MODIFICAR_CLIENTE @clientId, @nombre, @telefono, @direccion
+  </query>
+  <query name="LIBRERIA.ELIMINAR_CLIENTE">
+    EXEC ELIMINAR_CLIENTE @clientId
+  </query>
+</queries>

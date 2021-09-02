@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+  <query name="LIBRERIA.RESERVAR_LIBRO">
+    EXEC RESERVAR_LIBRO @clienteId, @libroId, @estado
+  </query>
+  <query name="LIBRERIA.DEVOLVER_LIBRO">
+    EXEC DEVOLVER_LIBRO @libroId, @clienteId
+  </query>
+</queries>
